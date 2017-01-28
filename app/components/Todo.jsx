@@ -9,7 +9,7 @@ var Todo = React.createClass({
 
     return(
       <div>
-        <h5>{id}. {text}</h5>
+        <h5>.{text}</h5>
       </div>
     )
   }
