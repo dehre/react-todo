@@ -13,5 +13,6 @@ try{
   console.log('ERROR OCCURRED WHEN CONFIGURING FIREBASE: ', e)
 }
 
+export var githubProvider = new firebase.auth.GithubAuthProvider();
 export var firebaseRef=firebase.database().ref();
 export default firebase;

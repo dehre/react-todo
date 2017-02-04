@@ -10,8 +10,9 @@
 @import "components/page-title";
 @import "components/container";
 @import "components/todo";
+@import "components/page-actions";
+@import "components/callout-auth";
 
-// Test
-h3 {
-  color: grey;
+.button {
+  border-radius: 4px;
 }
